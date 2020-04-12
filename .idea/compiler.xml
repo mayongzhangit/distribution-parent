@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="distribution-transaction-seata-dubbo-api" />
+        <module name="distribution-transaction-seata-dubbo-db1" />
+        <module name="distribution-transaction-seata-dubbo-db2" />
+        <module name="distribution-transaction-seata-feign-api" />
+        <module name="distribution-transaction-seata-feign-db1" />
+        <module name="distribution-transaction-seata-feign-db2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="distribution-parent" target="1.8" />
+      <module name="distribution-transaction-parent" target="1.8" />
+      <module name="distribution-transaction-seata-dubbo-api" target="1.5" />
+      <module name="distribution-transaction-seata-dubbo-db1" target="1.5" />
+      <module name="distribution-transaction-seata-dubbo-db2" target="1.5" />
+      <module name="distribution-transaction-seata-dubbo-parent" target="1.5" />
+      <module name="distribution-transaction-seata-feign-api" target="1.7" />
+      <module name="distribution-transaction-seata-feign-db1" target="1.7" />
+      <module name="distribution-transaction-seata-feign-db2" target="1.7" />
+      <module name="distribution-transaction-seata-feign-parent" target="1.7" />
+      <module name="distribution-transaction-seata-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
